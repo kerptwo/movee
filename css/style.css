@@ -1,0 +1,402 @@
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	max-width: 1920px;
+}
+.section_one{
+	background-color: #FED100;
+	background-image: url(../image/background.png);
+	/*background-size: cover;*/
+	background-size: contain;
+	padding-bottom: 47px;
+}
+.menu {
+	display: flex;
+	width: 1312px;
+	text-align: center;
+}
+.menu a{
+	color: #333;
+}
+.menu a:hover{
+	color: #333;
+}
+.logo {
+	font-weight: 600;
+    font-size: 22px;
+    line-height: 37px;
+    margin-top: 26px;
+    text-align: left;
+}
+.menu_navigation {
+	margin-top: 33px;
+    font-weight: 500;
+    font-size: 14px;
+	line-height: 22px;
+}
+.menu_navigation a{
+	margin: 0 15px;
+}
+.contacts_number {
+	margin-top: 31px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	text-decoration: underline;
+}
+.tittle {
+    margin-top: 49px;
+	margin-bottom: 23px;
+}
+.tittle h1 {
+	width: 50%;
+    font-weight: bold !important;
+    font-size: 52px !important;
+    line-height: 105.9% !important;
+    margin-bottom: 5px;
+}
+.tittle p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 37px;
+}
+.button_order {
+    background-color: #FF352B;
+    color: #fff;
+    border: none;
+    padding: 12px 72px;
+    font-style: normal; 
+    font-weight: 600;
+    font-size: 18px;
+}
+.inf_1 {
+	display: flex;
+}
+.inf_1 p {
+	width: 50%;
+	font-size: 11px;
+    margin-left: 6px;
+}
+.img1{
+
+}
+.inf_1 img {
+	height: 30px;
+}
+.information{
+	display: flex;
+    margin-top: 64px;
+}
+.step{
+	display: flex;
+}
+
+/*__________section_two_________*/
+
+.section_two {
+	padding-top: 73px;
+	padding-bottom: 42px;
+}
+.capiton {
+	text-align: center;
+}
+.capiton h3 {
+	font-size: 23px;
+	margin-bottom: 45px;
+}
+.step {
+	display: flex;
+    margin-bottom: 17px;
+}
+.step img {
+	height: 46px;
+	margin-right: 20px;
+}
+.step1 img {
+	margin-right: 30px;
+}
+.section_two_step{
+	margin-top: 4px;
+}
+.section_two_step h5 {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+.section_two_step p {
+	font-size: 12px;
+	width: 80%;
+}
+.capiton_two h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.capiton_two h5 {
+	font-size: 18px;
+}
+
+/*_________section_three________*/
+
+.section_three {
+	margin-bottom: 77px;
+}
+.capiton_two {
+	margin-bottom: 37px;
+}
+.price {
+	border: 1px solid #EBEBEB;
+    text-align: center;
+	padding-top: 63px;
+	padding-bottom: 66px;
+}
+.price h5 {
+	font-size: 18px;
+	margin-bottom: 44px;
+}
+.price p {
+	font-size: 12px;
+	margin-bottom: 19px;
+}
+.price h3 {
+	margin-top: 49px;
+    font-size: 23px;
+    margin-bottom: 46px;
+}
+.price a {
+	padding: 9px 58px;
+    color: #333333;
+    background-color: #FED100;
+}
+
+/*___________section_four__________*/
+
+.section_four{
+	padding-bottom: 30px;
+}
+.capiton_four{
+    margin-bottom: 42px;
+}
+.capiton_four h3 {
+	margin-bottom: 11px;
+}
+.park {
+	text-align: center;
+	margin-bottom: 43px;
+}
+.park button {
+	border: 1px solid #333;
+    padding: 8px 47px;
+    font-size: 15px;
+}
+li{
+	list-style: none;
+    padding-left: 20px;
+    position: relative;
+	margin-bottom: 19px;
+    font-size: 12px;
+}
+li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: #333;
+}
+.description h3{
+	font-size: 19px;
+    margin-top: 38px;
+	margin-bottom: 25px;
+}
+.description_button{
+	margin-top: 24px;
+    padding: 7px 58px;
+    color: #333333;
+    background-color: #FED100;
+    width: 188px;
+}
+.car img{
+	width: 70%;
+}
+.description{
+	display: none;
+}
+/*_____________section_five_____________*/
+
+.section_five {
+	padding-top: 76px;
+    padding-bottom: 70px;
+    background-color: #FED100;
+}
+.feedback h5{
+	font-size: 18px;
+    margin-top: 1px;
+	margin-bottom: 7px;
+}
+.data {
+	display: flex;
+}
+.data p {
+    font-size: 12px;
+	margin-bottom: 12px;
+}
+.data div {
+	font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-left: 8px;
+}
+.feedback_text {
+	font-size: 12px;
+    margin-left: 2px;
+    width: 90%;
+    line-height: 16px;
+    margin-bottom: 7px;
+}
+.feedback a {
+	text-decoration: underline;
+    font-size: 12px;
+    margin-left: 2px;
+}
+.feedback_all{
+	text-align: center;
+    padding: 6px 0;
+    margin-top: 41px;
+    border: 1px solid;
+}
+
+/*_____________section_six_____________*/
+
+.section_six{
+    padding-left: 36px;
+}
+.capiton_six {
+	text-align: left;
+	padding-top: 94px;
+}
+.capiton_six h3 {
+	margin-bottom: 6px;
+}
+.capiton_six p {
+	font-size: 12px;
+	margin-bottom: 33px;
+}
+.section_six_input input {
+	padding-left: 0px; 
+	padding-top: 0px;
+	border: none;
+    border-bottom: 1px solid #333;
+    /* background-color: transparent; */
+    color: inherit;
+    outline: none;
+	width: 225px;
+	margin-right: 50px;
+}
+.section_six_input a {
+    padding: 9px 20px;
+    background-color: #ff352b;
+	color: #fff;
+}
+.consent {
+	display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.consent input {
+	margin: 0;
+    position: absolute;
+    right: 245px;
+    top: 18px;
+}
+.consent p {
+	position: inherit;
+    right: 177px;
+    top: 18px;
+    font-size: 9px;
+}
+
+/*_____________section_seven_____________*/
+
+.section_seven {
+	padding-top: 94px;
+	position: relative;
+	margin-bottom: -7px;
+}
+.window_map {
+    position: absolute;
+	padding: 31px 30px 23px 26px;
+    bottom: 142px;
+    left: 118px;
+    background-color: #fff;
+}
+.window_map h4 {
+	font-size: 23px;
+	margin-bottom: 29px;
+}
+.window_map li {
+	margin-bottom: 11px;
+}
+.window_map li:before{
+    color: #FED100;
+}
+.social {
+	margin-top: 34px;
+	text-align: end;
+}
+.social a {
+	margin-left: 12px;
+}
+.social i {
+	color: #333;
+}
+
+/*____________________footer__________________*/
+
+.footer {
+	background-color: #FED100;
+	display: flex;
+	padding-left: 32px;
+    padding-top: 69px;
+	padding-bottom: 72px;
+    color: #333;
+}
+.footer a {
+	color: #333;
+}
+.logo_footer {
+	margin: 0; 
+}
+.consent_footer {
+	font-size: 12px;
+	margin-top: 27px;
+}
+.consent_footer_2 {
+	margin-top: 23px;
+}
+.footer_menu {
+	display: grid;
+    margin-top: 3px;
+}
+.footer_menu a {
+	margin-bottom: 5px;
+}
+.footer_menu a:nth-child(2){
+	margin-top: -4px;
+}
+.social_footer {
+	margin-top: 4px;
+}
+.social_footer a {
+	margin-right: 16px;
+}
+.site {
+	margin-top: 6px;
+}
+.callback_footer {
+	margin-top: 14px;
+}
+.callback_footer a {
+	padding: 6px 23px;
+    border: 1px solid;
+    margin-left: -30px;
+    font-size: 15px;
+}
+.number_footer {
+	margin-top: 7px;
+    font-size: 15px;
+    text-decoration: underline;
+}
